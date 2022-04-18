@@ -1,4 +1,9 @@
+body {
+  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+}
 .container {
+  background-color: #272044;
+  color: yellow;
   max-width: 400px;
   margin: 10vh auto 0 auto;
   box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
@@ -30,8 +35,14 @@
   text-align: center;
   font-size: 25px;
   cursor: pointer;
+  color: #fb5c8d;
 }
 #equal {
   background-color: #885df1;
   color: white;
+}
+.button:hover {
+  background-color: #383152;
+  color: #272044;
+  transition: 200ms ease-in-out;
 }
