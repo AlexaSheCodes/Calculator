@@ -10,13 +10,13 @@ h1 {
 .container {
   border-radius: 20px;
   background-color: #272044;
-  color: yellow;
   max-width: 400px;
   margin: 10vh auto 0 auto;
   box-shadow: 22px 20px 20px rgba(71, 22, 88, 0.3);
 }
 
 #display {
+  color: #e4b739;
   text-align: right;
   height: 70px;
   line-height: 70px;
