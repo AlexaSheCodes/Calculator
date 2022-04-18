@@ -1,12 +1,19 @@
 body {
   background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
 }
+h1 {
+  text-align: center;
+  font-family: "Square Peg", cursive;
+  color: white;
+  font-size: 70px;
+}
 .container {
+  border-radius: 20px;
   background-color: #272044;
   color: yellow;
   max-width: 400px;
   margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+  box-shadow: 22px 20px 20px rgba(71, 22, 88, 0.3);
 }
 
 #display {
@@ -43,6 +50,10 @@ body {
 }
 .button:hover {
   background-color: #383152;
-  color: #272044;
+  color: #58c1d1;
   transition: 200ms ease-in-out;
+}
+footer {
+  text-align: center;
+  padding: 20px;
 }
